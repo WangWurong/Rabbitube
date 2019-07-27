@@ -2,17 +2,12 @@
   "name": "rabbitube",
   "version": "1.0.0",
   "description": "A Youtube Music Wrapper",
-  "main": "app/electron.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Electron",
-    "Express",
-    "React",
-    "Redux"
-  ],
+  "keywords": ["Electron"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WangWurong/Rabbitube.git"
@@ -24,9 +19,6 @@
   },
   "homepage": "https://github.com/WangWurong/Rabbitube#readme",
   "dependencies": {
-    "electron": "^5.0.8",
-    "express": "^4.17.1",
-    "passport": "^0.4.0",
-    "passport-google-oauth20": "^2.0.0"
+    "electron": "^5.0.8"
   }
 }
